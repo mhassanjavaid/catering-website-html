@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* NAVBAR */
+}
+#navbar{
+    
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    
+}
+#navbar::before{
+    content: "";
+    background-color: #fff;
+    position: absolute;
+     z-index: -1;
+     height: 100%;
+     width: 100%;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+}
+#navbar ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px 40px;
+    color: #000;
+    letter-spacing: 4px;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#navbar ul li a:hover{
+    background-color:#ad25258f;
+}
+/* HOMEPAGE */
+
+#home{
+    background:url(./burger.jpg) no-repeat center center/cover ;
+    position: relative;
+     height: 690px;
+     width: 100%;
+}
+#home h1{
+    position: absolute;
+    font-size: 46px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    z-index: 1;
+    bottom: 50px;
+    left: 60px;
+}
+/* BOTTOM HOMEPAGE-1 */
+#home-bottom-1{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.img-1{
+    max-width: 100%;
+    opacity: 0.83;
+    padding-right: 70px;
+}
+#home-bottom-1 h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 46px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+}
+#home-bottom-1 h5{
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+}
+.para-1{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 25px;
+}
+.para-2{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #757575;
+}
+/* Border-1 */
+.border-1{
+    border-top: 1px solid #eee;
+    margin: 125px 100px;
+}
+.border-2{
+    border-top: 1px solid #eee;
+    margin-bottom: 55px ;
+}
+/*  HOMEPAGE-Menu */
+#menu{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.img-2{
+   
+    padding-left: 50px;
+    opacity: 0.83;
+    margin-left: 120px;
+}
+#menu h1{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 46px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+}
+#menu h4{
+    padding-top: 10px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+}
+#menu p{
+    padding-top: 10px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 25px;
+    color: #757575;
+}
+/*  contact  */
+#contact{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#contact h1{
+    font-size: 46px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+}
+.contact-para-1{
+    padding-top: 10px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 25px;
+    color: #757575;
+}
+.contact-para-2{
+    color: #607d8b;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+.para-intro{
+    padding-top: 10px;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #757575;
+    padding: 10px;
+}
+.btn{
+    margin-top: 15px;
+    margin-bottom: 18px;
+    font-size: 18px;
+    padding: 15px 22px;
+    background-color: #f1f1f1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid #f1f1f1;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:#ad25258f;
+    cursor: pointer;
+}
+/* FOOTER */
+.footer{
+    font-size: 25px;
+    color: #CDDC39;
+text-align: center;
+margin-top: 100px;
+padding: 70px 0;
+background-color: #39361f;
+}
